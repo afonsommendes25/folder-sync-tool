@@ -26,7 +26,7 @@ python sync_files.py <source_folder> <replica_folder> <interval> <log_file>
 ## Example
 
 ```bash
-python sync_files.py /path/to/source /path/to/replica 60 /path/to/log
+python sync_files.py /path/to/source /path/to/replica 120 /path/to/log
 ```
 
 This example syncs the `source folder` with the `replica` folder every 120 seconds, logging actions to the `log` file.
